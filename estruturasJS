@@ -1,0 +1,51 @@
+
+       /* Inicios dos testes de repetição WHILE */
+  <script>
+       /* Usaremos uma variavel comer fatia(cfatia) para fazer os testes WHILE*/
+     let cfatia;
+       while (cfatia<=8) {   //enquanto cfatia menor igual a 8 faça...
+           console.log('ainda tem?');
+            cfatia++
+          }
+            console.log('A pizza acabou!');// finaliza com msg
+       
+    // =====================================================================
+             /* Aqui usaremos o FOR e  faremos uma brincadeira com uma variável (ypioca)  cuja teremos que tomar 5 litros e assim a contagem para*/
+           var ypioca;
+               console.log(' Agora a prata'); // apenas uma msg antes de iniciar
+             
+             for (ypioca=1;ypioca<=5;ypioca++)
+                console.log(`ja foram ${ypioca} litros, quanto mais melhor! `);
+    
+   //============================================================================
+      
+        /* Aqui usaremos o formato SWITCH, que ira ter que informar a msg pela qual a variável sauda(saudação) irá receber, neste teste saudaremos com "boa tarde"
+            e o case terá que mostrar a msg do valor da variável sauda*/
+      var sauda= "boa tarde";
+          switch(sauda){
+              case "bom dia" : console.log("vamos iniciar os trabalhos!");break;
+              case "boa tarde" : console.log("Ainda temos trabalho por hoje!");break;  //nesse caso como sauda= "boa tare" resultado estara no segundo case
+              case "boa noite" : console.log("Acabamos o trabalho por hoje!");break;
+            default: console.log("Estou em descanso");break;  
+          }
+    
+    //==========================================================================
+          /* Pra fechar a condições IF-ELSE. Aqui faremos condições das idades dos cidadões que o voto é OBRIGATÓRIO  os 
+          OPCIONAIS e os QUE NÃO PODEM!*/
+
+       let idade=30; 
+
+         if (idade<16) {
+            console.log("NÃO PODE VOTAR!");
+              }
+            else if (idade<18 || idade>65){
+               console.log(" VOTO OPCIONAL!");
+               } else {
+                  console.log("VOTO OBRIGATÓRIO!"); // nesse caso como idade=30 o voto é obrigatorio!
+                 }
+    
+    
+    
+      
+      
+     </script>
